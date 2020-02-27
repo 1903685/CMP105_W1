@@ -20,12 +20,13 @@ private:
 	sf::RenderWindow* window;
 
 	sf::RectangleShape rect;
-	sf::RectangleShape rect1;
-	sf::RectangleShape rect2;
-
-	sf::Vector2f facePosition;
-
 	sf::CircleShape circle;
-	sf::CircleShape circle1;
-	sf::CircleShape circle2;
+
+	sf::RectangleShape redrect;
+	sf::RectangleShape greenrect;
+	sf::RectangleShape yellowrect;
+	sf::RectangleShape lastrect;
+
+	sf::Font font;
+	sf::Text text;
 };
